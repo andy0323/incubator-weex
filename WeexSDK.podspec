@@ -1,9 +1,9 @@
 # coding: utf-8
 Pod::Spec.new do |s|
 
-  s.name         = "RMB-WeexSDK"
+  s.name         = "WeexSDK"
 
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
 
   s.summary      = "WeexSDK Source ."
 
