@@ -103,7 +103,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, readonly, weak, nullable) WXSDKInstance *weexInstance;
 
 /**
- * @abstract The component's subcomponents.
  */
 @property (nonatomic, readonly, strong, nullable) NSArray<WXComponent *> *subcomponents;
 
@@ -143,12 +142,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property(nonatomic, readonly, assign) css_node_t *cssNode;
 
-/**
- * @abstract Invalidates the component's layout and marks it as needing an update.
- *
- * @discussion You can call this method to indicate that the layout of a component has changed and must be updated. Weex typically calls this method automatically when the layout-related styles change or when subcomponents are added or removed.
- *
- */
+
 - (void)setNeedsLayout;
 
 /**

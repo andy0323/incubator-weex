@@ -114,10 +114,7 @@ extern void WXPerformBlockOnBridgeThread(void (^block)());
  **/
 - (void)registerModules:(NSDictionary *)modules;
 
-/**
- *  Register Components Method
- *  @param components   component list
- **/
+
 - (void)registerComponents:(NSArray* )components;
 
 /**

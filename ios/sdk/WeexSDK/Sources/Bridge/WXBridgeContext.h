@@ -92,10 +92,7 @@
  **/
 - (void)executeJsService:(NSString *)script withName: (NSString *)name;
 
-/**
- *  Register Components Method
- *  @param components:   component list
- **/
+
 - (void)registerComponents:(NSArray *)components;
 
 /**

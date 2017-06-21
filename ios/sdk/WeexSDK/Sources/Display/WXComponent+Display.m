@@ -423,11 +423,6 @@
         // Only support WXLayer
         return NO;
     }
-    // Set border property for most of components because border drawing consumes a lot of memory (v0.6.0)
-//    if (_async) {
-//        // Async layer always draw border
-//        return YES;
-//    }
     if (!(_borderLeftStyle == _borderTopStyle &&
           _borderTopStyle == _borderRightStyle &&
           _borderRightStyle == _borderBottomStyle &&
