@@ -1,9 +1,9 @@
 # coding: utf-8
 Pod::Spec.new do |s|
 
-  s.name         = "WeexSDK"
+  s.name         = "RMB-WeexSDK"
 
-  s.version      = "0.13.0"
+  s.version      = "0.0.1"
 
   s.summary      = "WeexSDK Source ."
 
@@ -11,22 +11,18 @@ Pod::Spec.new do |s|
                    A framework for building Mobile cross-platform UI
                    DESC
 
-  s.homepage     = "https://github.com/alibaba/weex"
+  s.homepage     = "https://github.com/andy0323/incubator-weex"
   s.license = {
     :type => 'Copyright',
     :text => <<-LICENSE
-           Alibaba-INC copyright
+          RMB-WeexSDK
     LICENSE
   }
-  s.authors      = { "cxfeng1"      => "cxfeng1@gmail.com",
-                     "boboning"     => "ningli928@163.com",
-                     "yangshengtao" => "yangshengtao1314@163.com",
-                     "kfeagle"      => "sunjjbobo@163.com",
-                     "acton393"     => "zhangxing610321@gmail.com"
+  s.authors      = { "andy0323"      => "andy_ios@163.com"
                    }
   s.platform     = :ios
   s.ios.deployment_target = '7.0'
-  s.source =  { :path => '.' }
+  s.source       = { :git => "https://github.com/andy0323/incubator-weex.git", :tag => "#{s.version}" }
   s.source_files = 'ios/sdk/WeexSDK/Sources/**/*.{h,m,mm,c}'
   s.resources = 'pre-build/native-bundle-main.js', 'ios/sdk/WeexSDK/Resources/wx_load_error@3x.png'
 
